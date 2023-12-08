@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "../../Css/Register.css"
 const RegisterScreen = () => {
   const [username, setUsername] = useState("");
@@ -70,7 +70,7 @@ const RegisterScreen = () => {
 
           <div className="top-suggest_login">
             <span> Have an account? </span>
-            <a href="/login">Sign In</a>
+            <Link to="/loginmajiggy">Sign In</Link>
           </div>
 
           <div className="top-register-explain">

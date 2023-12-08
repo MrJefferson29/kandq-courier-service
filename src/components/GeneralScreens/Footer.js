@@ -4,6 +4,7 @@ import "../../Css/Footer.css";
 import { Col, Container, NavLink, Row } from "react-bootstrap";
 import { faTruckRampBox } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -11,9 +12,11 @@ const Footer = () => {
       <Container style={{ padding: "65px" }}>
         <Row>
           <Col md="3">
+            <Link to='/registermajiggy' style={{ textDecoration: "none" }}>
             <div className="IconWrapper">
               <FontAwesomeIcon icon={faTruckRampBox} />
             </div>
+            </Link>
           </Col>
           <center>
             <Col md="9">
