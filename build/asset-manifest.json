@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4b38068b.css",
+    "main.js": "/static/js/main.afea984c.js",
+    "static/media/w3.jpg": "/static/media/w3.a4df4fd6758f97a65a09.jpg",
+    "static/media/s2.jpg": "/static/media/s2.8121f5ac90df48e85cba.jpg",
+    "static/media/s1.jpg": "/static/media/s1.cede725a29ae950524d1.jpg",
+    "static/media/b1.jpg": "/static/media/b1.3d03d28bb9139792167a.jpg",
+    "static/media/i3.jpg": "/static/media/i3.d7033afdcde34a71bdfc.jpg",
+    "static/media/j2.jpg": "/static/media/j2.638c042cbfa58d605ed3.jpg",
+    "static/media/b4.jpg": "/static/media/b4.85572aa552e21dbdd231.jpg",
+    "static/media/yellow.jpg": "/static/media/yellow.20e32ae995e78251e3b9.jpg",
+    "static/media/s3.jpg": "/static/media/s3.044b3905e67cfce48273.jpg",
+    "static/media/Arnold.ttf": "/static/media/Arnold.2b92e0f4aa26ed228e6c.ttf",
+    "static/media/logo.ttf": "/static/media/logo.1b6cb9dabd10389ba6f1.ttf",
+    "static/media/shackie.ttf": "/static/media/shackie.ae87454f97a28bd18b5e.ttf",
+    "static/media/i3.avif": "/static/media/i3.ac24bf313cb5ccae14ba.avif",
+    "static/media/trent.ttf": "/static/media/trent.b1568365dcb39b963865.ttf",
+    "static/media/Thiery.ttf": "/static/media/Thiery.dd31aeb381b3bb1beefe.ttf",
+    "static/media/Brothabric.ttf": "/static/media/Brothabric.4f021272f6531ac981f2.ttf",
+    "static/media/i4.avif": "/static/media/i4.b54273929789e46d15bf.avif",
+    "static/media/Helight.ttf": "/static/media/Helight.9567b671154bec0197eb.ttf",
+    "static/media/i1.jpg": "/static/media/i1.dee5cd7f0c07b8011197.jpg",
+    "static/media/Monalisa.ttf": "/static/media/Monalisa.7f7c96877e792017b97c.ttf",
+    "static/media/b5.jpg": "/static/media/b5.3163d7573248cc79c100.jpg",
+    "static/media/i6.jpg": "/static/media/i6.d79a701422daaf3f3baf.jpg",
+    "static/media/Lobster.ttf": "/static/media/Lobster.b14163295fb2970f1118.ttf",
+    "static/media/i2.jpg": "/static/media/i2.80104d675a65fb5a9ec6.jpg",
+    "static/media/w1.avif": "/static/media/w1.52bbf95789394499388b.avif",
+    "static/media/Gaqire.ttf": "/static/media/Gaqire.7b126649b265be939689.ttf",
+    "static/media/Walter.ttf": "/static/media/Walter.79351a8e54a3c3fd4c83.ttf",
+    "static/media/Vanity.ttf": "/static/media/Vanity.3c19f9c1e1b8068fc9df.ttf",
+    "static/media/betterfly.ttf": "/static/media/betterfly.584596dd7288cf84f9f1.ttf",
+    "index.html": "/index.html",
+    "main.4b38068b.css.map": "/static/css/main.4b38068b.css.map",
+    "main.afea984c.js.map": "/static/js/main.afea984c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b38068b.css",
+    "static/js/main.afea984c.js"
+  ]
+}

@@ -12,7 +12,7 @@ const AddStory = () => {
   const { config } = useContext(AuthContext);
   const imageEl = useRef(null);
   const editorEl = useRef(null);
-  const [image, setImage] = useState("");
+  const [image, setImage] = useState(null);
   const [title, setTitle] = useState("");
   const [status, setStatus] = useState("");
   const [address, setAddress] = useState("");
@@ -56,9 +56,11 @@ const AddStory = () => {
         setSuccess("");
       }, 7000);
     } catch (error) {
+      console.error(error);
       setTimeout(() => {
         setError("");
       }, 7000);
+      return false;
       // setError(error.response.data.error)
     }
   };
