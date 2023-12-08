@@ -46,52 +46,52 @@ const Header = () => {
             className="justify-content-end"
           >
             <Nav className="justify-content-end">
-              <Nav.Link
+              <Link
                 className="link"
-                href="/"
+                to="/"
                 style={{ color: "aliceblue" }}
               >
                 HOME
-              </Nav.Link>
-              <Nav.Link
+              </Link>
+              <Link
                 className="link"
-                href="/tracking"
+                to="/tracking"
                 style={{ color: "aliceblue" }}
               >
                 TRACK PACKAGE
-              </Nav.Link>
+              </Link>
               {auth ? (
-                <Nav.Link
+                <Link
                   className="link"
-                  href="/addstory"
+                  to="/addstory"
                   style={{ color: "aliceblue" }}
                 >
                   NEW PACKAGE
-                </Nav.Link>
+                </Link>
               ) : (
                 <></>
               )}
-              <Nav.Link
+              <Link
                 className="link"
-                href="/about"
+                to="/about"
                 style={{ color: "aliceblue" }}
               >
                 ABOUT US
-              </Nav.Link>
-              <Nav.Link
+              </Link>
+              <Link
                 className="link"
-                href="/get-delivery-quote"
+                to="/get-delivery-quote"
                 style={{ color: "aliceblue" }}
               >
                 GET QUOTE
-              </Nav.Link>
-              <Nav.Link
+              </Link>
+              <Link
                 className="link"
-                href="/terms-and-privacy-policy"
+                to="/terms-and-privacy-policy"
                 style={{ color: "aliceblue" }}
               >
                 OUR POLICIES
-              </Nav.Link>
+              </Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
