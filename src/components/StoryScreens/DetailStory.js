@@ -199,7 +199,7 @@ const DetailStory = () => {
                 <Col md="6" style={{ marginTop: "15px" }}>
                   <div className="story-banner-img">
                     <img
-                      src={`/storyImages/${story.image}`}
+                      src={`https://delivery-wheat.vercel.app/storyImages/${story.image}`}
                       alt={story.title}
                     />
                   </div>
