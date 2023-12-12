@@ -85,7 +85,7 @@ const DetailStory = () => {
 
     try {
       const { data } = await axios.post(
-        `https://delivery-wheat.vercel.app//story/${slug}/like`,
+        `https://delivery-wheat.vercel.app/story/${slug}/like`,
         { activeUser },
       { withCredentials: true },
 
@@ -199,7 +199,7 @@ const DetailStory = () => {
                 <Col md="6" style={{ marginTop: "15px" }}>
                   <div className="story-banner-img">
                     <img
-                      src={`https://delivery-wheat.vercel.app/storyImages/${story.image}`}
+                      src={`/storyImages/${story.image}`}
                       alt={story.title}
                     />
                   </div>

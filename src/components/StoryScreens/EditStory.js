@@ -175,7 +175,7 @@ const EditStory = () => {
             <div class="currentlyImage">
               <div class="absolute">Currently Image</div>
               <img
-                src={`https://delivery-wheat.vercel.app/storyImages/${previousImage}`}
+                src={`/storyImages/${previousImage}`}
                 alt="storyImage"
               />
             </div>
